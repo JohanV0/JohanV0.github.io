@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
 body{
     margin: 0;
     overflow-x: hidden;
@@ -213,20 +208,19 @@ p{
     margin-bottom: 10px;
 }
 .backend{
-    width: 35px;
     margin: 12px;
 }
-#mysql{
-    margin-left: 15px;
+#python,#php{
+    width: 35px;
 }
-#sql{
+#mysql,#sql{
+    width: 35px;
     margin-left: 15px;
 }
 .habilidades{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .contenedor-backend{
     margin-top: 20px;
@@ -237,7 +231,21 @@ p{
     border-radius: 15px;
     
 }
-
+.contenedor-fronted{
+    margin-top: 20px;
+    background-color: #020b1a;
+    padding: 10px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    border-radius: 15px;
+    
+}
+.categoria1{
+    padding-bottom: 20px;
+}
+.categoria2{
+    padding-bottom: 20px;
+}
 .categoria1 li{
     border-bottom: 1px solid #fff;
     list-style: none;
@@ -245,7 +253,16 @@ p{
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 3.5rem;
+    gap: 10vh;
+}
+.categoria2 li{
+    border-bottom: 1px solid #fff;
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 12vh;
 }
 .item-name{
     text-align: center;
