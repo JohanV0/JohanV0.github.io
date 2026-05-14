@@ -104,3 +104,12 @@ video{
 .backend{
     width: 35px;
 }
+#edad{
+  width: 129px;
+}
+#ubicacion{
+  width: 204px;
+}
+#tel{
+  width: 214px;
+}
